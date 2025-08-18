@@ -1,0 +1,63 @@
+.matrix-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #0F0;
+  font-size: 2rem;
+  font-family: monospace;
+  background: rgba(0,0,0,0.7);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 2;
+  user-select: none;
+  box-shadow: 0 0 20px #0F0;
+}
+
+.matrix-form {
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+  z-index: 2;
+}
+.matrix-form input {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+.matrix-form button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  background: #0F0;
+  color: #000;
+  cursor: pointer;
+  font-family: monospace;
+  box-shadow: 0 0 10px #0F0;
+}
+body, html, #root, .matrix-bg {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.matrix-bg {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+  color: #888;
+}
